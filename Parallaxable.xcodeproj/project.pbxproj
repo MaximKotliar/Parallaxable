@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A2976F20CD33D500D9E8D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2976E20CD33D500D9E8D1 /* AppDelegate.swift */; };
+		19A2977120CD33D500D9E8D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2977020CD33D500D9E8D1 /* ViewController.swift */; };
+		19A2977420CD33D500D9E8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A2977220CD33D500D9E8D1 /* Main.storyboard */; };
+		19A2977620CD33D700D9E8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A2977520CD33D700D9E8D1 /* Assets.xcassets */; };
+		19A2977920CD33D700D9E8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A2977720CD33D700D9E8D1 /* LaunchScreen.storyboard */; };
+		19A2978220CD343E00D9E8D1 /* Parallaxable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978120CD343E00D9E8D1 /* Parallaxable.swift */; };
+		19A2978420CD360400D9E8D1 /* ValueBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978320CD360400D9E8D1 /* ValueBox.swift */; };
+		19A2978620CD37AA00D9E8D1 /* ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */; };
+		19A2978820CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */; };
+		19A2978A20CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */; };
+		19A2978D20CD41D000D9E8D1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978C20CD41D000D9E8D1 /* Observer.swift */; };
+		19A2978F20CD44A300D9E8D1 /* ParallaxUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */; };
+		19A2979120CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19A2976B20CD33D500D9E8D1 /* Parallaxable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parallaxable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A2976E20CD33D500D9E8D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A2977020CD33D500D9E8D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19A2977320CD33D500D9E8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A2977520CD33D700D9E8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A2977820CD33D700D9E8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A2977A20CD33D700D9E8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A2978120CD343E00D9E8D1 /* Parallaxable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallaxable.swift; sourceTree = "<group>"; };
+		19A2978320CD360400D9E8D1 /* ValueBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueBox.swift; sourceTree = "<group>"; };
+		19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxDriver.swift; sourceTree = "<group>"; };
+		19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ParallaxDriver.swift"; sourceTree = "<group>"; };
+		19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ParallaxDriver.swift"; sourceTree = "<group>"; };
+		19A2978C20CD41D000D9E8D1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxUpdater.swift; sourceTree = "<group>"; };
+		19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxUpdater.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A2976820CD33D500D9E8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A2976220CD33D500D9E8D1 = {
+			isa = PBXGroup;
+			children = (
+				19A2976D20CD33D500D9E8D1 /* Parallaxable */,
+				19A2976C20CD33D500D9E8D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19A2976C20CD33D500D9E8D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A2976B20CD33D500D9E8D1 /* Parallaxable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A2976D20CD33D500D9E8D1 /* Parallaxable */ = {
+			isa = PBXGroup;
+			children = (
+				19A2978020CD33DD00D9E8D1 /* Source */,
+				19A2976E20CD33D500D9E8D1 /* AppDelegate.swift */,
+				19A2977020CD33D500D9E8D1 /* ViewController.swift */,
+				19A2977220CD33D500D9E8D1 /* Main.storyboard */,
+				19A2977520CD33D700D9E8D1 /* Assets.xcassets */,
+				19A2977720CD33D700D9E8D1 /* LaunchScreen.storyboard */,
+				19A2977A20CD33D700D9E8D1 /* Info.plist */,
+			);
+			path = Parallaxable;
+			sourceTree = "<group>";
+		};
+		19A2978020CD33DD00D9E8D1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				19A2978B20CD384800D9E8D1 /* Helpers */,
+				19A2978120CD343E00D9E8D1 /* Parallaxable.swift */,
+				19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */,
+				19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */,
+				19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */,
+				19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */,
+				19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		19A2978B20CD384800D9E8D1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				19A2978320CD360400D9E8D1 /* ValueBox.swift */,
+				19A2978C20CD41D000D9E8D1 /* Observer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A2976A20CD33D500D9E8D1 /* Parallaxable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A2977D20CD33D700D9E8D1 /* Build configuration list for PBXNativeTarget "Parallaxable" */;
+			buildPhases = (
+				19A2976720CD33D500D9E8D1 /* Sources */,
+				19A2976820CD33D500D9E8D1 /* Frameworks */,
+				19A2976920CD33D500D9E8D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parallaxable;
+			productName = Parallaxable;
+			productReference = 19A2976B20CD33D500D9E8D1 /* Parallaxable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A2976320CD33D500D9E8D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Maxim Kotliar";
+				TargetAttributes = {
+					19A2976A20CD33D500D9E8D1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 19A2976620CD33D500D9E8D1 /* Build configuration list for PBXProject "Parallaxable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A2976220CD33D500D9E8D1;
+			productRefGroup = 19A2976C20CD33D500D9E8D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A2976A20CD33D500D9E8D1 /* Parallaxable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A2976920CD33D500D9E8D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A2977920CD33D700D9E8D1 /* LaunchScreen.storyboard in Resources */,
+				19A2977620CD33D700D9E8D1 /* Assets.xcassets in Resources */,
+				19A2977420CD33D500D9E8D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A2976720CD33D500D9E8D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A2978D20CD41D000D9E8D1 /* Observer.swift in Sources */,
+				19A2978820CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift in Sources */,
+				19A2979120CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift in Sources */,
+				19A2978620CD37AA00D9E8D1 /* ParallaxDriver.swift in Sources */,
+				19A2978F20CD44A300D9E8D1 /* ParallaxUpdater.swift in Sources */,
+				19A2978220CD343E00D9E8D1 /* Parallaxable.swift in Sources */,
+				19A2978A20CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift in Sources */,
+				19A2977120CD33D500D9E8D1 /* ViewController.swift in Sources */,
+				19A2976F20CD33D500D9E8D1 /* AppDelegate.swift in Sources */,
+				19A2978420CD360400D9E8D1 /* ValueBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19A2977220CD33D500D9E8D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A2977320CD33D500D9E8D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A2977720CD33D700D9E8D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A2977820CD33D700D9E8D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A2977B20CD33D700D9E8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A2977C20CD33D700D9E8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A2977E20CD33D700D9E8D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Parallaxable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximkotliar.Parallaxable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A2977F20CD33D700D9E8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Parallaxable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximkotliar.Parallaxable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A2976620CD33D500D9E8D1 /* Build configuration list for PBXProject "Parallaxable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A2977B20CD33D700D9E8D1 /* Debug */,
+				19A2977C20CD33D700D9E8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A2977D20CD33D700D9E8D1 /* Build configuration list for PBXNativeTarget "Parallaxable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A2977E20CD33D700D9E8D1 /* Debug */,
+				19A2977F20CD33D700D9E8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A2976320CD33D500D9E8D1 /* Project object */;
+}
