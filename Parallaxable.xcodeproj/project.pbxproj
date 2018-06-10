@@ -56,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		199066D920CD573B000CC853 /* UIKit+Parallaxable */ = {
+			isa = PBXGroup;
+			children = (
+				19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */,
+				19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */,
+				19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */,
+			);
+			path = "UIKit+Parallaxable";
+			sourceTree = "<group>";
+		};
 		19A2976220CD33D500D9E8D1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +101,11 @@
 		19A2978020CD33DD00D9E8D1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				199066D920CD573B000CC853 /* UIKit+Parallaxable */,
 				19A2978B20CD384800D9E8D1 /* Helpers */,
 				19A2978120CD343E00D9E8D1 /* Parallaxable.swift */,
 				19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */,
 				19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */,
-				19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */,
-				19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */,
-				19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";

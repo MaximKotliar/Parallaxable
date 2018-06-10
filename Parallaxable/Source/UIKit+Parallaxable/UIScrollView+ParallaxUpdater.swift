@@ -9,8 +9,6 @@
 import UIKit.UIScrollView
 
 private var contentOffsetObserverHandle = "contentOffsetObserverHandle"
-typealias ParallaxDriverScrollView = UIScrollView & ParallaxDriver
-
 extension UIScrollView: ParallaxUpdater {
 
     private var contentOffsetObserver: Observer?  {
