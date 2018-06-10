@@ -1,0 +1,6 @@
+framework module Pods_Parallaxable {
+  umbrella header "Pods-Parallaxable-umbrella.h"
+
+  export *
+  module * { export * }
+}
