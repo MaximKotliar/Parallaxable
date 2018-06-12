@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Bindy.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Parallaxable.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "Parallaxable"
   s.version      = "0.0.1"
   s.summary      = "Beautiful parallax effect for your Table/Collection cells"
+  s.swift_version = "4.1"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -77,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/MaximKotliar/Bindy.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/MaximKotliar/Parallaxable.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source", "Parallaxable/**/*.{h,m,swift}"
+  s.source_files  = "Parallaxable/Source/**/*.{h,m,swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
