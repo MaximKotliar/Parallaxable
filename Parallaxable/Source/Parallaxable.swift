@@ -13,7 +13,7 @@ public protocol Parallaxable {
     func updateHorizontalParallaxOffset(with offset: CGFloat)
 }
 
-extension Parallaxable {
+public extension Parallaxable {
     func updateVerticalParallaxOffset(with offset: CGFloat) {}
     func updateHorizontalParallaxOffset(with offset: CGFloat) {}
 }
@@ -21,7 +21,7 @@ extension Parallaxable {
 private var parallaxXOffsetHandle = "parallaxXOffsetHandle"
 private var parallaxYOffsetHandle = "parallaxYOffsetHandle"
 extension Parallaxable {
-    var parallaxXOffset: CGFloat?  {
+    public var parallaxXOffset: CGFloat?  {
         get {
             let valueBox = objc_getAssociatedObject(self, &parallaxXOffsetHandle) as? ValueBox<CGFloat>
             return valueBox?.value
@@ -39,7 +39,7 @@ extension Parallaxable {
         }
     }
 
-    var parallaxYOffset: CGFloat?  {
+    public var parallaxYOffset: CGFloat?  {
         get {
             let valueBox = objc_getAssociatedObject(self, &parallaxYOffsetHandle) as? ValueBox<CGFloat>
             return valueBox?.value

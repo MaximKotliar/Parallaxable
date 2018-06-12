@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ParallaxUpdater {
+public protocol ParallaxUpdater {
 
     func startUpdatingParallax()
     func stopUpdatingParallax()
@@ -16,8 +16,7 @@ protocol ParallaxUpdater {
 
 private var isParallaxEnabledHandle = "isParallaxEnabledHandle"
 extension ParallaxUpdater {
-
-    var isParallaxEnabled: Bool  {
+    public var isParallaxEnabled: Bool  {
         get {
             let valueBox = objc_getAssociatedObject(self, &isParallaxEnabledHandle) as? ValueBox<Bool>
             return valueBox?.value ?? false
