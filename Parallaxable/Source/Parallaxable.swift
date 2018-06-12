@@ -13,6 +13,11 @@ public protocol Parallaxable {
     func updateHorizontalParallaxOffset(with offset: CGFloat)
 }
 
+extension Parallaxable {
+    func updateVerticalParallaxOffset(with offset: CGFloat) {}
+    func updateHorizontalParallaxOffset(with offset: CGFloat) {}
+}
+
 private var parallaxXOffsetHandle = "parallaxXOffsetHandle"
 private var parallaxYOffsetHandle = "parallaxYOffsetHandle"
 extension Parallaxable {
