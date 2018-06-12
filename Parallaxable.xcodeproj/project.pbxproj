@@ -17,7 +17,6 @@
 		19A2978620CD37AA00D9E8D1 /* ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */; };
 		19A2978820CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */; };
 		19A2978A20CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */; };
-		19A2978D20CD41D000D9E8D1 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978C20CD41D000D9E8D1 /* Observer.swift */; };
 		19A2978F20CD44A300D9E8D1 /* ParallaxUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */; };
 		19A2979120CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */; };
 		80CBD3516E5046CF89FE2156 /* Pods_Parallaxable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FC03E738E3A1F4211FCF4F /* Pods_Parallaxable.framework */; };
@@ -37,7 +36,6 @@
 		19A2978520CD37AA00D9E8D1 /* ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxDriver.swift; sourceTree = "<group>"; };
 		19A2978720CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ParallaxDriver.swift"; sourceTree = "<group>"; };
 		19A2978920CD381700D9E8D1 /* UICollectionView+ParallaxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ParallaxDriver.swift"; sourceTree = "<group>"; };
-		19A2978C20CD41D000D9E8D1 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		19A2978E20CD44A300D9E8D1 /* ParallaxUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxUpdater.swift; sourceTree = "<group>"; };
 		19A2979020CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxUpdater.swift"; sourceTree = "<group>"; };
 		73943D5C29F96E41258AAB97 /* Pods-Parallaxable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parallaxable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parallaxable/Pods-Parallaxable.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				19A2978320CD360400D9E8D1 /* ValueBox.swift */,
-				19A2978C20CD41D000D9E8D1 /* Observer.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -229,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A2978D20CD41D000D9E8D1 /* Observer.swift in Sources */,
 				19A2978820CD37D200D9E8D1 /* UITableView+ParallaxDriver.swift in Sources */,
 				19A2979120CD4F6400D9E8D1 /* UIScrollView+ParallaxUpdater.swift in Sources */,
 				19A2978620CD37AA00D9E8D1 /* ParallaxDriver.swift in Sources */,

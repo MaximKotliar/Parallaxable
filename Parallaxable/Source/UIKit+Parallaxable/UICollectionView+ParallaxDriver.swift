@@ -9,8 +9,11 @@
 import UIKit.UICollectionView
 
 extension UICollectionView: ParallaxDriver {
-
     public func updateParallaxOnVisibleItems() {
-
+        visibleCells.forEach { cell in
+            guard let cell = cell as? (Parallaxable & UICollectionViewCell) else { return }
+            let xOffset = (contentOffset.x - cell.frame.midX) / bounds.width + 0.5
+            cell.updateHorizontalParallaxOffset(with: xOffset)
+        }
     }
 }

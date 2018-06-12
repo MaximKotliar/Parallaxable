@@ -9,8 +9,11 @@
 import UIKit.UITableView
 
 extension UITableView: ParallaxDriver {
-
     public func updateParallaxOnVisibleItems() {
-        print(contentOffset.y)
+        visibleCells.forEach { cell in
+            guard let cell = cell as? (Parallaxable & UITableViewCell) else { return }
+            let yOffset = (contentOffset.y - cell.frame.midY) / bounds.height + 0.5
+            cell.updateVerticalParallaxOffset(with: yOffset)
+        }
     }
 }

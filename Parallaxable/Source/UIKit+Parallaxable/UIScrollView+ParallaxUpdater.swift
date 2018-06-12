@@ -10,10 +10,10 @@ import UIKit.UIScrollView
 
 private var contentOffsetObserverHandle = "contentOffsetObserverHandle"
 extension UIScrollView: ParallaxUpdater {
-
-    private var contentOffsetObserver: Observer?  {
+    private var contentOffsetObserver: NSKeyValueObservation?  {
         get {
-            return objc_getAssociatedObject(self, &contentOffsetObserverHandle) as? Observer
+            return objc_getAssociatedObject(self,
+                                            &contentOffsetObserverHandle) as?NSKeyValueObservation
         }
 
         set {
@@ -26,9 +26,8 @@ extension UIScrollView: ParallaxUpdater {
 
     public func startUpdatingParallax() {
         guard let driver = self as? (UIScrollView & ParallaxDriver) else { return }
-        contentOffsetObserver = Observer(object: self,
-                                         keyPath: "contentOffset") { [weak driver] in
-                                            driver?.updateParallaxOnVisibleItems()
+        contentOffsetObserver = observe(\.contentOffset) { [weak driver] _, _ in
+            driver?.updateParallaxOnVisibleItems()
         }
     }
 
