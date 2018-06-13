@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/cocoapods/l/Parallaxable.svg?style=flat-square)](http://cocoapods.org/pods/Parallaxable)
 [![Platform](https://img.shields.io/cocoapods/p/Parallaxable.svg?style=flat-square)](http://cocoapods.org/pods/Parallaxable)
 
--# Parallaxable
+# Parallaxable
 
 Beautiful parallax effect for your Table/Collection cells. (Or something else)
 
