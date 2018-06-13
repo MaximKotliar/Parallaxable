@@ -11,6 +11,7 @@ Add
 `pod 'Parallaxable'`
 
 to your podfile, and run
+
 `pod install`
 
 ## Usage
