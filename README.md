@@ -45,3 +45,4 @@ extension TableCell: Parallaxable {
 }
 ```
 Code above will offset `TableCell`'s imageView from center by `offset`.
+`offset` is value from -1 to 1 representing position of cell relative to table/collection view's center.
