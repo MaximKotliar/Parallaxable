@@ -9,6 +9,5 @@
 import Foundation
 
 public protocol ParallaxDriver {
-
     func updateParallaxOnVisibleItems()
 }

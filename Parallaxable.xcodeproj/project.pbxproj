@@ -166,6 +166,7 @@
 				TargetAttributes = {
 					19A2976A20CD33D500D9E8D1 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -387,7 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maximkotliar.Parallaxable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -405,7 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maximkotliar.Parallaxable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
