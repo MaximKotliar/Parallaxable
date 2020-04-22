@@ -10,6 +10,7 @@ import UIKit.UITableView
 
 extension UITableView: ParallaxDriver {
     public func updateParallaxOnVisibleItems() {
+        guard window != nil else { return }
         visibleCells.forEach { cell in
             guard var cell = cell as? (Parallaxable & UITableViewCell) else { return }
             let yOffset = (contentOffset.y - cell.frame.midY) / bounds.height + 0.5
